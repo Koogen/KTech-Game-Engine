@@ -2,7 +2,7 @@ package example.objects;
 
 import java.awt.event.KeyEvent;
 
-import KTech.components.Entity;
+import KTech.components.*;
 import KTech.core.KTech;
 import KTech.core.Renderer;
 import KTech.graphics.Image;
