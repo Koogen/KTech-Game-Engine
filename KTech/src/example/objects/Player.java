@@ -6,6 +6,7 @@ import KTech.components.*;
 import KTech.core.KTech;
 import KTech.core.Renderer;
 import KTech.graphics.Image;
+import example.states.ExampleState;
 
 
 
