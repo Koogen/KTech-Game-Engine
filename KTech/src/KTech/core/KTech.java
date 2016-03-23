@@ -15,6 +15,7 @@ public class KTech implements Runnable {
 
 	private int width = 800 / 2, height = 600 / 2;
 	private int frames;
+	private int framerate;
 	private static float scale = 2.0f;
 	private String title = "KTech Game Engine";
 	private double frameCap = 1.0 / 60.0;
@@ -86,6 +87,8 @@ public class KTech implements Runnable {
 			
 				if (debug)
 					System.out.println("FPS: " + frames);
+					
+					framerate = frames;
 
 				frames = 0;
 			}
@@ -191,6 +194,6 @@ public class KTech implements Runnable {
 	}
 	
 	public int getFramerate() {
-		return frames;
+		return framerate;
 	}
 }

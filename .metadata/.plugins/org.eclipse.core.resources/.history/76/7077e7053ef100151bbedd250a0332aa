@@ -1,0 +1,55 @@
+package KTech.components;
+
+import KTech.core.KTech;
+import KTech.core.Renderer;
+
+public class Timer extends Entity {
+
+	private int seconds;
+
+	boolean shouldRun = false;
+
+	public boolean complete = false;
+
+	public Timer(int seconds) {
+		this.seconds = seconds;
+	}
+
+	@Override
+	public void update(KTech kt, float time) {
+
+		if (shouldRun == false) {
+			seconds = seconds * kt.getFramerate();
+			shouldRun = true;
+		}
+
+		else if (shouldRun) {
+			// kt.debugOutput("running");
+			if (seconds > 0) {
+				seconds--;
+			} else if (seconds == 0){
+				complete = true;
+				shouldRun = false;
+			}
+		}
+	}
+
+	@Override
+	public void render(KTech kt, Renderer r) {
+
+	}
+
+	@Override
+	public void componentEvent(String name, Entity object) {
+
+	}
+
+	@Override
+	public void dispose() {
+
+	}
+
+	public boolean isComplete() {
+		return complete;
+	}
+}

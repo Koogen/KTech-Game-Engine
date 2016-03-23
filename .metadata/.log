@@ -116,3 +116,194 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-21 20:52:31.032
 !MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+!SESSION 2016-03-22 19:41:47.334 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-22 19:41:50.566
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 19:42:10.065
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Owner'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-22 19:42:13.987
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-22 19:42:14.965
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-22 19:42:16.360
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+!SESSION 2016-03-23 17:16:00.347 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-23 17:16:03.929
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-23 17:16:22.402
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Owner'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:16:26.485
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:16:27.642
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:16:28.865
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-23 17:16:29.812
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: KTech
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$3.run(SetupTaskPerformer.java:3015)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/KTech/bin/KTech'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$3.run(SetupTaskPerformer.java:3015)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics\Font.class.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2016-03-23 17:16:29.856
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2016-03-23 17:16:29.856
+!MESSAGE Could not delete '/KTech/bin/KTech'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$3.run(SetupTaskPerformer.java:3015)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics\Font.class.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics.
+Contains: Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2016-03-23 17:16:29.856
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2016-03-23 17:16:29.857
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2016-03-23 17:16:29.857
+!MESSAGE Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics\Font.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2016-03-23 17:16:29.857
+!MESSAGE Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech\graphics.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2016-03-23 17:16:29.857
+!MESSAGE Could not delete: C:\Users\Owner\Documents\GitHub\KTech-Game-Engine\KTech\bin\KTech.
+!SESSION 2016-03-23 17:17:19.262 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-23 17:17:32.539
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Owner'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:17:37.109
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:17:38.151
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:17:38.923
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+!SESSION 2016-03-23 17:21:00.673 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-23 17:21:12.429
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Owner'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:21:14.267
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:21:15.236
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-03-23 17:21:16.098
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Users\Owner\Documents\eclipse\plugins\net.sf.fjep.fatjar_0.0.31.jar.
