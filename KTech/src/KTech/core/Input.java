@@ -51,7 +51,7 @@ public class Input implements KeyListener, MouseListener, MouseMotionListener {
 	}
 	
 	public  boolean isMBReleased(int button) {
-		return buttons[button] && buttonsLast[button];
+		return !buttons[button] && buttonsLast[button];
 	}
 	
 	@Override
