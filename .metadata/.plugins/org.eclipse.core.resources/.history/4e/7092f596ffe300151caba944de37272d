@@ -1,0 +1,29 @@
+package KTech.networking;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class IPJFrame extends JFrame {
+
+	private static JFrame frame;
+	
+	public static void start() {
+		frame = new JFrame("Connect to server");
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setFocusable(true);
+		frame.setLayout(new BorderLayout());
+		frame.setLocationRelativeTo(null);
+		frame.setResizable(false);
+		frame.setVisible(true);
+		
+		frame.setSize(300, 150);
+		
+		JLabel label = new JLabel("Enter the IP that you want to connect to below.");
+		frame.getContentPane().add(label);
+		
+	}
+	
+}

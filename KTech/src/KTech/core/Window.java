@@ -56,6 +56,7 @@ public class Window {
 		image.flush();
 		frame.dispose();
 		System.out.println("Closing down the audio engine...");
+		System.exit(0);
 	}
 
 	public Canvas getCanvas() {

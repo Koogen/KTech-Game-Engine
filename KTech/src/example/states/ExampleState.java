@@ -11,7 +11,7 @@ public class ExampleState implements State {
 	
 	Image door = new Image("/door.png"); // Making an image and loading it from the res folder
 	
-	ObjectManager manager = new ObjectManager(); // Making new object manager
+	public static ObjectManager manager = new ObjectManager(); // Making new object manager
 	
 	public ExampleState() {
 		

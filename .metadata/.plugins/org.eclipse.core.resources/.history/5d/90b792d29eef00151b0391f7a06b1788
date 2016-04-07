@@ -1,0 +1,32 @@
+package KTech.networking;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class IPJFrame extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	private static JFrame frame;
+
+	public static void start() {
+		frame = new JFrame("Enter IP for server and press enter");
+
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setFocusable(true);
+		frame.setLayout(new BorderLayout());
+		frame.setLocationRelativeTo(null);
+		frame.setResizable(false);
+		frame.setVisible(true);
+
+		frame.setSize(300, 150);
+
+
+		JTextField jtf = new JTextField();
+		frame.getContentPane().add(jtf);
+
+	}
+
+}

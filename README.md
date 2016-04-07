@@ -10,12 +10,14 @@ Please give credit if you make a game with this engine
 
 KTech was made by the veteran programmer of the Terracraft team, dawings1. It is used for all of our in house games that we make.
 
-bugs/complaints? Email me at dawings1@terracraft.us
+questions/comments? Email me at dawings1@terracraft.us
 
 http://terracraft.us
 
 
 ===TUTORIAL===
+
+For images, to add transparency you have to fill the transparent area with the hex color value of 0xff00ff
 
 In order to make a game with the KTech game engine, you must extract and drop the files into your eclipse workspace.
 Then, go into eclipse and make a new Java Project called "KTech Game Engine" (Case Sensitive) and click finish.
