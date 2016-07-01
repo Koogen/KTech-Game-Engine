@@ -114,10 +114,10 @@ public class Input implements KeyListener, MouseListener, MouseMotionListener {
 	}
 	
 	public  int getMouseX() {
-		return mouseX;
+		return (int) (mouseX / gc.getScale());
 	}
 	
 	public  int getMouseY() {
-		return mouseY;
+		return (int) (mouseY / gc.getScale());
 	}
 }

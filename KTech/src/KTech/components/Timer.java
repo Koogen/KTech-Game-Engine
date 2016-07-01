@@ -8,17 +8,21 @@ public class Timer extends Entity {
 	private int seconds;
 
 	static boolean shouldRun = false;
-
+	boolean start = false;
 	public static boolean complete = false;
 
-	public Timer(int seconds) {
+	public void set (int seconds) {
 		this.seconds = seconds;
 	}
-
+	
+	public void reset() {
+		complete = false;
+		start = false;
+		shouldRun = false;
+	}
+	
 	@Override
 	public void update(KTech kt, float time) {
-
-		boolean start = false;
 
 		if (kt.getFramerate() != 0) {
 			start = true;
@@ -38,6 +42,8 @@ public class Timer extends Entity {
 				} else if (seconds == 0) {
 					complete = true;
 					shouldRun = false;
+				} else if (seconds < 0) {
+					seconds = 0;
 				}
 			}
 		}
