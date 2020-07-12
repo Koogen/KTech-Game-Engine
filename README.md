@@ -1,14 +1,14 @@
 # KTech Game Engine
 Thank you for downloading the KTech Game Engine!
 
-KTech is an open source 2D Game engine written from scratch in java, and can be run on any OS with JRE 1.5 or newer installed.
+KTech is an open source 2D Game engine written from scratch in java, and can be run on any OS with JRE 1.7 or newer installed.
 
 It runs on basically any system, the lowest specs tested being a rasperry pi zero. 
 However, this also depends on how well the game itself is optimized as well.
 
 Please give credit if you make a game with this engine
 
-KTech was made by the veteran programmer of the Terracraft team, dawings1. It is used for all of our in house games that we make.
+KTech was made by the veteran programmer of the Terracraft team, Koogen. It is used for most of our in house games that we make.
 
 questions/comments? Email me at dawings1@terracraft.us
 
